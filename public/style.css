@@ -1,0 +1,60 @@
+*{
+    background-color: rgb(252, 249, 249);  
+}
+
+#dd {
+    border-bottom:  5px solid rgb(228, 5, 5);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(252, 249, 249); 
+    height: 100px;
+    width: 100%;
+}
+
+p,#dd .logo {
+
+    background-color: rgb(252, 249, 249);   
+
+}
+
+
+
+
+#dd .ss { 
+    
+    width: 250px;
+    height: 150px;
+}
+
+
+#root{
+    max-height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    background-color: rgb(252, 249, 249); 
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  p{
+    font-family: sans-serif;
+    font-weight: bold;
+  }

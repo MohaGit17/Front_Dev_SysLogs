@@ -1,0 +1,62 @@
+.box{
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.button{
+
+    padding: 4px 12px;
+    color:black;
+    border: 2px solid #e7e7e7;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover{
+    background: linear-gradient(to right, #ed4264, #ffedbc);
+    border: 3px solid #721e18;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transition: opacity 600ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+.popup{
+    position: relative;
+    margin: 80px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    width: 40%;
+    transition: all 3s ease-in-out;
+}
+.popup h2{
+    margin-top: 0;
+}
+.popup .close{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 400ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.popup .close:hover{
+    color: #06d85f;
+}
+.popup .content{
+    max-height: 30%;
+    overflow: auto;
+}

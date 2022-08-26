@@ -1,0 +1,4 @@
+
+[
+    {"attack":"","datetime":"2022-06-13 01:43:16","devname":"FortiGate-601E-01","id":"364","logall":"Jun 13 01:43:16 2.2.2.1 devid=FG6H1ETB21900280 eventtime=1655080995522538743 tz=+0100 logid=0100032002 level=alert vd=root logdesc=Admin login failed sn=0 method=ssh dstip=80.246.14.65 action=login status=failed reason=passwd_invalid admin login failed from ssh(8.43.224.108) because of invalid password","loguser":"admin","msg":"Administrator","type":"event system","ui":"ssh(8.43.224.108)"}
+]

@@ -1,0 +1,3 @@
+[
+    {"op1":"192.168.120.1","op2":"SW-Core-VSS","date":"06 14 10:20:40.882","op3":"%C4K_REDUNDANCY-5-CALENDAR_RATELIMIT","msg":"The calendar has been successfully synchronized to the standby supervisor24 times since last calendar syslog"}
+]
